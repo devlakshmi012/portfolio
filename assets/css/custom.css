@@ -1,0 +1,121 @@
+/* custom  modal style */
+:root {
+    --nav-color: #e87532;
+    --nav-hover-color: #e87532;
+    --nav-mobile-background-color: #ffffff;
+    --nav-dropdown-background-color: #ffffff;
+    --nav-dropdown-color: #ffffff;
+    --nav-dropdown-hover-color: #e87532;
+    --heading-color: #ffffff;
+}
+
+.modal-content {
+    border-radius: 10px;
+    /* Makes the modal corners rounded */
+    background-color: #fff;
+    /* White background */
+}
+
+.modal-header {
+    border-bottom: none;
+    /* Removes the bottom border */
+    background-color: #e87532 !important;
+    /* Background color */
+    color: white !important;
+    /* White text */
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.modal-body {
+    font-size: 1.1rem;
+    color: #0a0f14; 
+    /* Text color */
+    background-color: white;
+    /* White background */
+}
+
+.modal-footer .btn {
+    background-color: #e87532;
+    /* Button background color */
+    border: 1px solid #e87532;
+    /* Button border color */
+    color: white;
+    /* White text on the button */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.modal-footer .btn:hover {
+    background-color: #e7a03b;
+    /* Lighter shade of hover color for hover effect */
+    border-color: #e7a03b;
+}
+
+.modal-footer {
+    border-top: none;
+    /* Removes the top border */
+}
+
+/* View style  */
+
+:root {
+    --primary-color: #e87532;
+    --text-light: #ffffff;
+}
+
+body.view-boby {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
